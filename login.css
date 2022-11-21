@@ -1,0 +1,39 @@
+*{
+    
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+.Home_body{
+    background-image: url("img/img2.jpg");
+    background-size: cover;
+    
+}
+.myform{
+padding: 2rem;
+max-width: 100%;
+color: #fff;
+
+}
+.sub_heading{
+    color:darkgrey;
+}
+
+.main{
+    
+    border-style:none;
+    border-top-style: dotted;
+      border-color:grey;
+    border-width:7px;
+    height:0px;
+    width:100%
+}
+.inner_text{
+    text-align: left;
+}
+
+.flex-end {
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+  }
