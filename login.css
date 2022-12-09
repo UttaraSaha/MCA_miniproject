@@ -5,10 +5,24 @@
     font-family:sans-serif;
 }
 .Home_body{
-    background-image: url("img/img2.jpg");
-    background-size: cover;
+  
     
-}
+    position: relative;
+  }
+
+  .top{
+    background-color: lightcyan;
+
+  }
+  
+  
+  .content {
+    position: relative;
+  }
+  .heading{
+    text-align: left;
+  }
+
 .myform{
 padding: 2rem;
 max-width: 100%;
@@ -20,20 +34,65 @@ color: #fff;
 }
 
 .main{
-    
-    border-style:none;
-    border-top-style: dotted;
-      border-color:grey;
-    border-width:7px;
-    height:0px;
-    width:100%
+  
+  border-style:none;
+  border-top-style: dashed;
+    border-color:grey;
+  border-width:2px;
+  height:0px;
+  width:100%
 }
-.inner_text{
-    text-align: left;
-}
+
 
 .flex-end {
     padding: 10px 0;
     display: flex;
     justify-content: flex-end;
   }
+.display-5{
+  vertical-align: middle;
+  line-height: 90px; 
+  font-family: 'Aclonica';
+  color: blueviolet;
+}
+
+.row1{
+  padding-top: 2pc;
+}
+.About-us{
+  margin:50px ;
+  display:inline-block;
+  
+  text-align: left;
+}
+.about-img{
+  width:30%;
+  float: left;
+  margin-right: 30px;
+}
+.Recruiter{
+  padding: 3pc;
+  width:60%
+}
+.active{
+text-decoration:underline;
+}
+
+.Att{
+  margin: 2pc,0pc;
+  margin-top: 2pc;
+  padding: 1pc;
+  
+  background-color: antiquewhite;
+}
+.heading{
+  text-align: center;
+}
+.logo{
+  width: 40%;
+  
+  object-fit: contain;
+}
+.col1{
+  width:25%
+}
